@@ -12,3 +12,12 @@ $fa-font-path: "../webfonts" !default;
 h1{
     color: $text-color;
 }
+
+body{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-image: url('/resources/img/footer-bg.jpg');
+}
+
