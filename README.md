@@ -7,14 +7,47 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# laravel-comics
+# laravel-comics-2
 
-Create un nuovo progetto Laravel. Concentratevi sul layout: create un file di layout in cui inserire la struttura comune di tutte le pagine del sito web (tag head, tag body, ...) eventualmente includendo header e footer tramite due partials.
-Create poi una rotta per visualizzare la lista di tutti i fumetti recuperati da un file inserito nella cartella config e abbellite il tutto sfruttando Sass.
+## 08/01/2024
 
-## Bonus:
+oggi create un nuovo progetto Laravel 9 per gestire un archivio di fumetti.
 
-Create più pagine istituzionali che condividono lo stesso layout (utilizzando il routing)
+### Milestone 1
+
+Tramite gli appositi comandi artisan create un model con relativa migration e seeder e resource controller.
+Editate la resource route
+
+### Milestone 2
+
+Iniziate a definire le prime operazioni CRUD con le relative view dove necessarie:
+
+-   index()
+-   show()
+-   create()
+-   store() (solo dump dei dati)
+
+### Bonus:
+
+Procedere con il salvataggio dei dati sul db
+
+## 09/01/2024
+
+oggi lavorate sulla stessa repo di ieri e completate le operazioni CRUD.
+
+### Bonus:
+
+Aggiungere validazioni e messaggi di errore e alla cancellazione messaggio di conferma all'utente
+
+## 10/01/2024
+
+sempre lavorando sulla repo di ieri, potete aggiungere le validazioni in modo da rendere più stabile il vostro gestionale di fumetti. Validare gli input ricevuti in fase di creazione e modifica, rispondendo con errori chiari e in italiano.
+
+### Bonus:
+
+utilizzare le Request personalizzate per validare i dati
+aggiungere conferma alla cancellazione degli elementi
+aggiungere un filtro a vostra scelta per i dati dei comics
 
 ## installazione Laravel
 
