@@ -24,9 +24,9 @@
                     @endforeach
 
                 </ul>
-                <div class="search d-flex align-items-center ">
+                <div class="search d-flex align-items-center">
                     <input class="form-control searchbar" type="search" placeholder="Search" aria-label="Search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-magnifying-glass ms-2"></i>
                 </div>
             </div>
 
