@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'comic' => [
+    'comics' => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
             "description" => "The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!",
@@ -110,7 +110,80 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+    ],
+    'dcComics' => [
+        'Characters',
+        'Comics',
+        'Movies',
+        'TV',
+        'Games',
+        'Videos',
+        'News',
+    ],
+    'shop' => [
+        'Shop DC',
+        'Shop DC Collectibles',
+    ],
+    'dc' => [
+        'Term of use',
+        'Privacy policy(New)',
+        'Add Choices',
+        'Advertising',
+        'Jobs',
+        'Subscriptions',
+        'Talent Workshops',
+        'CPSC Certificates',
+        'Ratings',
+        'Shop Help',
+        'Contact Us',
+    ],
+    'sites' => [
+        'DC',
+        'MAD Magazine',
+        'DC Kids',
+        'DC Universe',
+        'DC Power Visa',
+    ],
+    'navLinks' => [
+        'characters',
+        'comics',
+        'movies',
+        'tv',
+        'games',
+        'collectibles',
+        'videos',
+        'fans',
+        'news',
+        'shop'
+    ],
+    'socialIcons' => [
+        '/img/footer-fb.png',
+        '/img/footer-twit.png',
+        '/img/footer-youtube.png',
+        '/img/footer-pinterest.png',
+        '/img/footer-periscope.png',
+    ],
+    'buyComics' => [
+        [
+            'img' => 'img/buy-comics-digital-comics.png',
+            'text' => 'Digital Comics'
+        ],
+        [
+            'img' => 'img/buy-comics-merchandise.png',
+            'text' => 'DC Merchandise'
+        ],
+        [
+            'img' => 'img/buy-comics-subscriptions.png',
+            'text' => 'Subscription'
+        ],
+        [
+            'img' => 'img/buy-comics-shop-locator.png',
+            'text' => 'Comic Shop Locator'
+        ],
+        [
+            'img' => 'img/buy-dc-power-visa.svg',
+            'text' => 'DC Power Visa'
+        ]
     ]
 ];
-
 

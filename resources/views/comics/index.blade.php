@@ -39,6 +39,6 @@
         </div>
 
     </main>
-    {{-- @include('partials.resources'); --}}
+    @include('partials.resources');
 
 @endsection
